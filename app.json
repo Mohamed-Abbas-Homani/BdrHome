@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Bdr-home",
+    "name": "BdrHome",
     "slug": "Bdr-home",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#e9e9e9"
+      },
+      "package": "com.moumoudroid.Bdrhome"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3356d601-a251-4c5e-a063-85a232f4e260"
+      }
     }
   }
 }
